@@ -12410,6 +12410,10 @@ textarea.form-control-lg {
   content: url(../../../build/img/cla/ic_log-ejecutivo.svg);
 }
 
+.img_Chevron {
+  content: url(../../../build/img/cla/ic_Chevron.svg);
+}
+
 body {
   font-family: "RawsonRegular", sans-serif;
   font-size: 18px;
