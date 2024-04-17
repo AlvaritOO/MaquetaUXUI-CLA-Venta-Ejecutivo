@@ -31,6 +31,16 @@ $itaudisplay: "RawsonRegular";
   content: url(../../../build/img/cla/ic_Chevron.svg);
 }
 
+.img-logo-footer {
+  content: url(../../../build/img/cla/logo_cla_footer.svg);
+  height: 59px;
+  width: 50%;
+}
+
+.img-cardif-footer {
+  content: url(../../../build/img/cla/cardif-byn.svg);
+}
+
 body {
   font-family: "RawsonRegular", sans-serif;
   font-size: 18px;

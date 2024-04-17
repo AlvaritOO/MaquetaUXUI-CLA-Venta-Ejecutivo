@@ -38,6 +38,17 @@ $itaudisplay: "ItauDisplay";
   content: url(../../../build/img/itau/chevron.svg);
 }
 
+.img-logo-footer {
+  content: url(../../../build/img/logo_itau_rgb.svg);
+  height: 70px;
+}
+
+.img-cardif-footer {
+  content: url(../../../build/img/itau/cardif-byn.svg);
+  height: 59px;
+  width: 50%;
+}
+
 body {
   font-family: "ItauRegular";
   //src: url("../../src/fonts/ItauTextPro_W_Rg.woff2");
