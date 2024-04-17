@@ -1,13 +1,43 @@
 @use "../custom" as *;
 
+// Fonts
+@font-face {
+  font-family: "RawsonRegular";
+  src: url("../../src/fonts/cla/RawsonRegular.otf");
+}
+
+//tipografias
+$headings-font-family: "RawsonRegular";
+$headings-color: $titulo-cabecera;
+
+$itautextpro: "RawsonRegular";
+$itaudisplay: "RawsonRegular";
+
+// HTML
+
+.image-logo {
+  content: url(../../../build/img/cla/logo-cla.svg);
+}
+
+.image-logo-centrado {
+  content: url(../../../build/img/cla/logo-bnp.svg);
+}
+
+.img_log-ejecutivo {
+  content: url(../../../build/img/cla/ic_log-ejecutivo.svg);
+}
+
 body {
-  font-family: "ItauRegular";
-  //src: url("../../src/fonts/ItauTextPro_W_Rg.woff2");
-  background-color: $neutral;
+  font-family: "RawsonRegular", sans-serif;
+  font-size: 18px;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 h1 {
-  font-family: "ItauDisplay", sans-serif; /*Specify your font name here*/
+  font-family: "RawsonRegular"; /*Specify your font name here*/
   font-size: 28px;
 }
 
@@ -20,7 +50,7 @@ span,
 p,
 ul,
 li {
-  font-family: "ItauRegular";
+  font-family: "RawsonRegular";
 }
 
 section#navBar {
@@ -36,11 +66,6 @@ section#navBar {
   border: 1px solid #efe9e5;
   padding: 4px;
   color: #231d19;
-}
-
-.logo-itau {
-  border-right: 1px solid #ccc;
-  margin-right: 19px;
 }
 
 .log-ejecutivo img {

@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*$naranja: #0076A9;
+/*$naranja: #ec7000;
 $naranja-hover: #bc5900;
 $light-01: #fee082;
 $light-02: #fef3e0;
@@ -37,14 +37,6 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
-@font-face {
-  font-family: "ItauRegular";
-  src: url("../../src/fonts/ItauTextPro_W_Rg.woff2");
-}
-@font-face {
-  font-family: "ItauDisplay";
-  src: url("../../src/fonts/ItauDisplayPro_W_Bd.woff2");
-}
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
@@ -138,7 +130,7 @@ body {
   --bs-tertiary-color-rgb: 33, 37, 41;
   --bs-tertiary-bg: #f8f9fa;
   --bs-tertiary-bg-rgb: 248, 249, 250;
-  --bs-heading-color: #231d19;
+  --bs-heading-color: inherit;
   --bs-link-color: #0076a9;
   --bs-link-color-rgb: 0, 118, 169;
   --bs-link-decoration: underline;
@@ -263,7 +255,6 @@ hr {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: "ItauDisplay";
   font-weight: 500;
   line-height: 1.2;
   color: var(--bs-heading-color);
@@ -5831,7 +5822,7 @@ textarea.form-control-lg {
   --bs-popover-header-padding-x: 1rem;
   --bs-popover-header-padding-y: 0.5rem;
   --bs-popover-header-font-size: 1rem;
-  --bs-popover-header-color: #231d19;
+  --bs-popover-header-color: inherit;
   --bs-popover-header-bg: var(--bs-secondary-bg);
   --bs-popover-body-padding-x: 1rem;
   --bs-popover-body-padding-y: 1rem;
@@ -12403,33 +12394,33 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-section#footer {
-  background-color: #0076a9;
+@font-face {
+  font-family: "RawsonRegular";
+  src: url("../../src/fonts/cla/RawsonRegular.otf");
+}
+.image-logo {
+  content: url(../../../build/img/cla/logo-cla.svg);
 }
 
-.text-footer-1 {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 21px;
-  color: #FFFFFF;
+.image-logo-centrado {
+  content: url(../../../build/img/cla/logo-bnp.svg);
 }
 
-.text-footer-2 {
-  font-style: normal;
-  font-weight: 300;
-  font-size: 13px;
-  line-height: 19px;
-  color: #FFFFFF;
+.img_log-ejecutivo {
+  content: url(../../../build/img/cla/ic_log-ejecutivo.svg);
 }
 
 body {
-  font-family: "ItauRegular";
-  background-color: #faf7f5;
+  font-family: "RawsonRegular", sans-serif;
+  font-size: 18px;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 h1 {
-  font-family: "ItauDisplay", sans-serif; /*Specify your font name here*/
+  font-family: "RawsonRegular"; /*Specify your font name here*/
   font-size: 28px;
 }
 
@@ -12442,7 +12433,87 @@ span,
 p,
 ul,
 li {
-  font-family: "ItauRegular";
+  font-family: "RawsonRegular";
+}
+
+section#navBar {
+  background-color: #ffffff;
+}
+
+.header-bg {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.log-ejecutivo {
+  border-radius: 22px;
+  border: 1px solid #efe9e5;
+  padding: 4px;
+  color: #231d19;
+}
+
+.log-ejecutivo img {
+  width: 30px;
+}
+
+.nav-itau {
+  background-color: #ffffff;
+}
+
+.nav-itau div ul li.nav-item .nav-link {
+  padding: 18px 50px;
+}
+
+.nav-itau li a {
+  color: #56504c;
+}
+
+.nav-itau a.nav-link.active {
+  border-bottom: 4px solid #0076a9;
+  color: #0076a9;
+}
+
+.dropdown-toggle::after {
+  display: none;
+  content: "";
+  width: 30px;
+  padding: 1px 7px;
+  background-position: center;
+  background-position-y: 4px;
+  border-top: 0.3em solid transparent;
+  border-right: 0.3em solid transparent;
+  background-image: url(../img/Chevron.svg);
+}
+
+.nav-tab1 {
+  background-color: #ffffff;
+  padding-bottom: 0px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.nav-tab1 div ul li.nav-item .nav-link {
+  padding: 8px 40px;
+}
+
+.nav-tab1 li a {
+  color: #56504c;
+}
+
+.nav-tab1 a.nav-link.active {
+  border-bottom: 4px solid #0076a9;
+  color: #0076a9;
+  opacity: 1;
+}
+
+.nav-tab1 a.nav-link {
+  opacity: 0.5;
+  color: #939598;
+  border-bottom: 4px solid #939598;
+}
+
+.active1 {
+  color: #231d19;
 }
 
 .form-floating > label {
@@ -13202,7 +13273,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 }
 
 .btn-close-orange {
-  color: #0076a9;
+  color: #ec7000;
 }
 
 .bg-green {
@@ -13349,87 +13420,22 @@ Due to the split circle of progress-left and progress right, we must use the ani
   margin-left: 2rem !important;
 }
 
-section#navBar {
-  background-color: #ffffff;
+section#footer {
+  background-color: #0076a9;
 }
 
-.header-bg {
-  width: 100%;
-  background-color: #ffffff;
+.text-footer-1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
 }
 
-.log-ejecutivo {
-  border-radius: 22px;
-  border: 1px solid #EFE9E5;
-  padding: 4px;
-  color: #231D19;
-}
-
-.logo-itau {
-  border-right: 1px solid #ccc;
-  margin-right: 19px;
-}
-
-.log-ejecutivo img {
-  width: 30px;
-}
-
-.nav-itau {
-  background-color: #ffffff;
-}
-
-.nav-itau div ul li.nav-item .nav-link {
-  padding: 18px 50px;
-}
-
-.nav-itau li a {
-  color: #56504c;
-}
-
-.nav-itau a.nav-link.active {
-  border-bottom: 4px solid #0076a9;
-  color: #0076a9;
-}
-
-.dropdown-toggle::after {
-  display: none;
-  content: "";
-  width: 30px;
-  padding: 1px 7px;
-  background-position: center;
-  background-position-y: 4px;
-  border-top: 0.3em solid transparent;
-  border-right: 0.3em solid transparent;
-  background-image: url(../img/Chevron.svg);
-}
-
-.nav-tab1 {
-  background-color: #ffffff;
-  padding-bottom: 0px;
-  margin-bottom: 40px;
-  width: 100%;
-}
-
-.nav-tab1 div ul li.nav-item .nav-link {
-  padding: 8px 40px;
-}
-
-.nav-tab1 li a {
-  color: #56504c;
-}
-
-.nav-tab1 a.nav-link.active {
-  border-bottom: 4px solid #0076a9;
-  color: #0076a9;
-  opacity: 1;
-}
-
-.nav-tab1 a.nav-link {
-  opacity: 0.5;
-  color: #939598;
-  border-bottom: 4px solid #939598;
-}
-
-.active1 {
-  color: #231D19;
+.text-footer-2 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 19px;
+  color: #ffffff;
 }

@@ -1,5 +1,39 @@
 @use "../custom" as *;
 
+// Fonts
+@font-face {
+  font-family: "ItauRegular";
+  src: url("../../src/fonts/itau/ItauTextPro_W_Rg.woff2");
+}
+
+@font-face {
+  font-family: "ItauDisplay";
+  src: url("../../src/fonts/itau/ItauDisplayPro_W_Bd.woff2");
+}
+
+//tipografias
+$headings-font-family: "ItauDisplay";
+$headings-color: $titulo-cabecera;
+
+$itautextpro: "itauRegular";
+$itaudisplay: "ItauDisplay";
+
+// HTML
+
+.image-logo {
+  content: url(../../../build/img/itau/logo-itau.svg);
+  border-right: 1px solid #ccc;
+  margin-right: 19px;
+}
+
+.image-logo-centrado {
+  content: url(../../../build/img/itau/logo-bnp.svg);
+}
+
+.img_log-ejecutivo {
+  content: url(../../../build/img/itau/ic_log-ejecutivo.svg);
+}
+
 body {
   font-family: "ItauRegular";
   //src: url("../../src/fonts/ItauTextPro_W_Rg.woff2");
@@ -36,11 +70,6 @@ section#navBar {
   border: 1px solid #efe9e5;
   padding: 4px;
   color: #231d19;
-}
-
-.logo-itau {
-  border-right: 1px solid #ccc;
-  margin-right: 19px;
 }
 
 .log-ejecutivo img {

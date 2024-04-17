@@ -23,9 +23,9 @@ $textos: #56504c;
 $placeholder: #89837f;
 $bordes-card: #efe9e5;
 // Colores
-$primary: #0076A9;
+$primary: #0076a9;
 $secondary: #003399;
-$success: #DEF4FF;
+$success: #def4ff;
 $info: #007ab7;
 $light: #ffffff;
 //$dark: $azul-hover;
@@ -66,7 +66,6 @@ $accordion-border-radius: 8px;
 $accordion-inner-border-radius: 8px;
 $accordion-icon-color: $primary;
 
-
 //Tooltips
 $tooltip-bg: #000000;
 
@@ -75,17 +74,9 @@ $modal-content-color: $textos;
 $modal-content-border-radius: 12px;
 $modal-inner-padding: 32px;
 
-//tipografias
-$headings-font-family: "ItauDisplay";
-$headings-color: $titulo-cabecera;
-
-$itautextpro: "itauRegular";
-$itaudisplay: "ItauDisplay";
-
 //alertas
 $alert-border-radius: 8px;
 $input-border-radius: 8px;
-
 
 //barras de progreso
 $position-values: (
@@ -123,7 +114,7 @@ $position-values: (
   95: 95%,
   98: 98%,
   100: 100%,
-  101: 101%,
+  101: 101%
 );
 
 //Border
@@ -142,16 +133,6 @@ body {
   font-family: "ItauRegular", sans-serif; /*Specify your font name here*/
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-}
-// Fonts
-@font-face {
-  font-family: "ItauRegular";
-  src: url("../../src/fonts/ItauTextPro_W_Rg.woff2");
-}
-
-@font-face {
-  font-family: "ItauDisplay";
-  src: url("../../src/fonts/ItauDisplayPro_W_Bd.woff2");
 }
 
 // Importar Bootstrap
