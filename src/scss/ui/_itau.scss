@@ -11,17 +11,6 @@
   src: url("../../src/fonts/itau/ItauDisplayPro_W_Bd.woff2");
 }
 
-//tipografias
-$headings-font-family: "ItauDisplay";
-$headings-color: $titulo-cabecera;
-
-$itautextpro: "itauRegular";
-$itaudisplay: "ItauDisplay";
-
-//botones
-$btn-border-width: 2px;
-$btn-padding-y: 10px;
-
 // Colores
 $naranja: #ec7000;
 $naranja-hover: #bc5900;
@@ -38,6 +27,29 @@ $textos: #56504c;
 $placeholder: #89837f;
 $bordes-card: #efe9e5;
 $yellow: #f5c66d;
+$primary: #ec7000;
+.bg-primary {
+  background-color: $primary !important;
+}
+.text-primary {
+  color: $primary !important;
+}
+
+//tipografias
+$headings-font-family: "ItauDisplay";
+$headings-color: $titulo-cabecera;
+
+$itautextpro: "itauRegular";
+$itaudisplay: "ItauDisplay";
+
+//botones
+$btn-border-width: 2px;
+$btn-padding-y: 10px;
+.btn-primary {
+  color: #fff !important;
+  background-color: $primary !important;
+  border-color: $primary !important;
+}
 
 //acordeon
 $accordion-border-color: $bordes-card;

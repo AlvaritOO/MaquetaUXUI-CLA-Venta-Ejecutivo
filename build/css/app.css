@@ -12389,11 +12389,25 @@ textarea.form-control-lg {
   font-family: "ItauDisplay";
   src: url("../../src/fonts/itau/ItauDisplayPro_W_Bd.woff2");
 }
+.bg-primary {
+  background-color: #ec7000 !important;
+}
+
+.text-primary {
+  color: #ec7000 !important;
+}
+
+.btn-primary {
+  color: #fff !important;
+  background-color: #ec7000 !important;
+  border-color: #ec7000 !important;
+}
+
 .datepicker table tr td span.active,
 .datepicker table tr td span.active:hover,
 .datepicker table tr td span.active.disabled,
 .datepicker table tr td span.active.disabled:hover {
-  background-image: -webkit-linear-gradient(top, #0d6efd #0d6efd) !important;
+  background-image: -webkit-linear-gradient(top, #ec7000 #ec7000) !important;
 }
 
 .image-logo {
@@ -12484,8 +12498,8 @@ section#navBar {
 }
 
 .nav-itau a.nav-link.active {
-  border-bottom: 4px solid #0d6efd;
-  color: #0d6efd;
+  border-bottom: 4px solid #ec7000;
+  color: #ec7000;
 }
 
 .dropdown-toggle::after {
@@ -12516,8 +12530,8 @@ section#navBar {
 }
 
 .nav-tab1 a.nav-link.active {
-  border-bottom: 4px solid #0d6efd;
-  color: #0d6efd;
+  border-bottom: 4px solid #ec7000;
+  color: #ec7000;
   opacity: 1;
 }
 
@@ -12551,7 +12565,7 @@ section#navBar {
 .modal-title {
   margin-bottom: 0;
   line-height: var(--bs-modal-title-line-height);
-  color: #0d6efd;
+  color: #ec7000;
 }
 
 button.cerrar-modal {
@@ -12634,11 +12648,11 @@ a.card-box {
 }
 
 .card-plan.sombra-itau1.active {
-  border: 3px solid #0d6efd;
+  border: 3px solid #ec7000;
 }
 
 .card-plan.active .numero-plan {
-  background-color: #0d6efd;
+  background-color: #ec7000;
   color: #f8f9fa;
 }
 
@@ -12670,7 +12684,7 @@ card.card-box {
 }
 
 .titulo-seguro {
-  color: #0d6efd;
+  color: #ec7000;
   font-size: 20px;
 }
 
@@ -12742,7 +12756,7 @@ section#contenedor-mayor {
 
 .btn-primary {
   color: #fff;
-  border: 2px solid #0d6efd;
+  border: 2px solid #ec7000;
   border-color: #fff;
 }
 .btn-primary:hover {
@@ -12785,7 +12799,7 @@ section#contenedor-mayor {
   order: 1;
   flex-grow: 0;
   background: #ffffff;
-  border: 1px solid #0d6efd;
+  border: 1px solid #ec7000;
 }
 
 .divisor {
@@ -12807,7 +12821,7 @@ small.rango-uf {
 }
 
 .bubble {
-  background: #0d6efd;
+  background: #ec7000;
   color: #f8f9fa;
   padding: 4px 12px;
   position: relative;
@@ -12822,7 +12836,7 @@ small.rango-uf {
   position: absolute;
   width: 2px;
   height: 2px;
-  background: #0d6efd;
+  background: #ec7000;
   top: -2px;
   left: 50%;
 }
@@ -12939,7 +12953,7 @@ body {
   border-style: solid;
   position: absolute;
   top: 0;
-  border-color: #0d6efd;
+  border-color: #ec7000;
 }
 .progress .progress-left .progress-bar {
   left: 100%;
@@ -12969,7 +12983,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 80%;
-  color: #0d6efd;
+  color: #ec7000;
   font-weight: 300;
 }
 .progress .progress-value div {
