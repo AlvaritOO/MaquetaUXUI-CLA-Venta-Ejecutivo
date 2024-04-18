@@ -1,29 +1,51 @@
 @use "../custom" as *;
 
 // Fonts
+// @font-face {
+//   font-family: "RawsonRegular";
+//   src: url("../../src/fonts/cla/RawsonRegular.otf");
+// }
+
+// //tipografias
+// $headings-font-family: "RawsonRegular";
+// $headings-color: $titulo-cabecera;
+
+// $itautextpro: "RawsonRegular";
+// $itaudisplay: "RawsonRegular";
+
+// Fonts
 @font-face {
-  font-family: "RawsonRegular";
-  src: url("../../src/fonts/cla/RawsonRegular.otf");
+  font-family: "ItauRegular";
+  src: url("../../src/fonts/itau/ItauTextPro_W_Rg.woff2");
 }
 
-//tipografias
-$headings-font-family: "RawsonRegular";
-$headings-color: $titulo-cabecera;
-
-$itautextpro: "RawsonRegular";
-$itaudisplay: "RawsonRegular";
+@font-face {
+  font-family: "ItauDisplay";
+  src: url("../../src/fonts/itau/ItauDisplayPro_W_Bd.woff2");
+}
 
 // Colores
 $primary: #0076a9;
 $secondary: #0076a9;
+.bg-primary {
+  background-color: $primary !important;
+}
+.text-primary {
+  color: $primary !important;
+}
 
 //Botones
 $btn-border-radius: 8px;
 $btn-line-height: 24px;
 
 $btn-padding-x: 24px;
+.btn-primary {
+  color: #fff !important;
+  background-color: $primary !important;
+  border-color: $primary !important;
+}
 .btn-outline-secondary {
-  color: #586264;
+  color: #0076a9;
   border-color: #0076a9;
   border-width: 2px;
   text-align: center;
@@ -34,12 +56,28 @@ $btn-padding-x: 24px;
   }
 }
 
+//boton disabled
+.btn:disabled,
+.btn.disabled,
+fieldset:disabled .btn {
+  color: #3e4545 !important;
+  pointer-events: none;
+  background-color: #a8b3b7 !important;
+  border: 0;
+  border-color: #d9d3cf !important;
+  opacity: 100;
+}
+
 // Colores
 $primary: #0076a9;
 $secondary: #0076a9;
 $success: #def4ff;
 $info: #007ab7;
 $light: #ffffff;
+$text-secondary-cla: #b37400;
+.text-secondary {
+  color: $text-secondary-cla !important;
+}
 
 //acordeon
 $accordion-border-color: $bordes-card;
@@ -93,27 +131,69 @@ $modal-inner-padding: 32px;
   content: url(../../../build/img/cla/ic_confirmacion.svg);
 }
 
-.img_alerta {
+.img_alert {
   content: url(../../../build/img/cla/ic_alerta.svg);
 }
 
-.img_cerrar {
+.img_close {
   content: url(../../../build/img/cla/cerrar.svg);
 }
 
+.img_vida-familiar {
+  content: url(../../../build/img/cla/ic_vida-familiar.svg);
+}
+
+.img-vida {
+  content: url(../../../build/img/cla/vida.svg);
+  height: 60px !important;
+}
+
+.img-salario {
+  content: url(../../../build/img/cla/salario.svg);
+  height: 60px;
+}
+
+.img-credito-inmobiliario {
+  content: url(../../../build/img/cla/credito-inmobiliario.svg);
+  height: 60px;
+}
+
+// body {
+//   font-family: "RawsonRegular", sans-serif;
+//   font-size: 18px;
+//   overflow-x: hidden;
+//   display: flex;
+//   flex-direction: column;
+//   min-height: 100vh;
+// }
+
+// h1 {
+//   font-family: "RawsonRegular"; /*Specify your font name here*/
+//   font-size: 32px;
+//   font-weight: 700;
+// }
+
+// h2 {
+//   font-size: 22px;
+//   color: $textos;
+// }
+
+// span,
+// p,
+// ul,
+// li {
+//   font-family: "RawsonRegular";
+// }
+
 body {
-  font-family: "RawsonRegular", sans-serif;
-  font-size: 18px;
-  overflow-x: hidden;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  font-family: "ItauRegular";
+  //src: url("../../src/fonts/ItauTextPro_W_Rg.woff2");
+  background-color: $neutral;
 }
 
 h1 {
-  font-family: "RawsonRegular"; /*Specify your font name here*/
-  font-size: 32px;
-  font-weight: 700;
+  font-family: "ItauDisplay", sans-serif; /*Specify your font name here*/
+  font-size: 28px;
 }
 
 h2 {
@@ -125,7 +205,7 @@ span,
 p,
 ul,
 li {
-  font-family: "RawsonRegular";
+  font-family: "ItauRegular";
 }
 
 section#navBar {
@@ -278,8 +358,8 @@ button.cerrar-modal-alerta {
 }
 
 .alert-warning {
-  border-left: 4px solid #f1ae2f;
-  background-color: #fcebcb;
+  background-color: #ffecde;
+  border: 0;
 }
 
 .alert-danger {
@@ -399,6 +479,7 @@ section#contenedor-mayor {
 }
 
 .body-buttom-card {
+  color: $primary;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -14,16 +14,6 @@ $textos: #56504c;
 $placeholder: #89837f;
 $bordes-card: #efe9e5;
 $yellow: #f5c66d;*/
-.btn:disabled,
-.btn.disabled,
-fieldset:disabled .btn {
-  color: #56504c !important;
-  pointer-events: none;
-  background-color: #d9d3cf !important;
-  border-color: #d9d3cf !important;
-  opacity: var(--bs-btn-disabled-opacity);
-}
-
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
@@ -12390,57 +12380,109 @@ textarea.form-control-lg {
   src: url("../../src/fonts/itau/ItauDisplayPro_W_Bd.woff2");
 }
 .bg-primary {
-  background-color: #ec7000 !important;
+  background-color: #0076a9 !important;
 }
 
 .text-primary {
-  color: #ec7000 !important;
+  color: #0076a9 !important;
 }
 
 .btn-primary {
   color: #fff !important;
-  background-color: #ec7000 !important;
-  border-color: #ec7000 !important;
+  background-color: #0076a9 !important;
+  border-color: #0076a9 !important;
+}
+
+.btn-outline-secondary {
+  color: #0076a9;
+  border-color: #0076a9;
+  border-width: 2px;
+  text-align: center;
+}
+.btn-outline-secondary:hover {
+  color: #fff;
+  background-color: #0076a9;
+  border-color: #0076a9;
+}
+
+.btn:disabled,
+.btn.disabled,
+fieldset:disabled .btn {
+  color: #3e4545 !important;
+  pointer-events: none;
+  background-color: #a8b3b7 !important;
+  border: 0;
+  border-color: #d9d3cf !important;
+  opacity: 100;
+}
+
+.text-secondary {
+  color: #b37400 !important;
 }
 
 .datepicker table tr td span.active,
 .datepicker table tr td span.active:hover,
 .datepicker table tr td span.active.disabled,
 .datepicker table tr td span.active.disabled:hover {
-  background-image: -webkit-linear-gradient(top, #ec7000 #ec7000) !important;
+  background-image: -webkit-linear-gradient(top, #0076a9 #0076a9) !important;
 }
 
 .image-logo {
-  content: url(../../../build/img/itau/logo-itau.svg);
-  border-right: 1px solid #ccc;
-  margin-right: 19px;
+  content: url(../../../build/img/cla/logo-cla.svg);
 }
 
 .image-logo-centrado {
-  content: url(../../../build/img/itau/logo-bnp.svg);
+  content: url(../../../build/img/cla/logo-bnp.svg);
 }
 
 .img_log-ejecutivo {
-  content: url(../../../build/img/itau/ic_log-ejecutivo.svg);
+  content: url(../../../build/img/cla/ic_log-ejecutivo.svg);
 }
 
 .img_Chevron {
-  content: url(../../../build/img/itau/chevron.svg);
+  content: url(../../../build/img/cla/ic_Chevron.svg);
 }
 
 .img-logo-footer {
-  content: url(../../../build/img/itau/logo_itau_rgb.svg);
-  height: 70px;
+  content: url(../../../build/img/cla/logo_cla_footer.svg);
+  height: 60px;
+  margin-right: 24px;
 }
 
 .img-cardif-footer {
-  content: url(../../../build/img/itau/cardif-byn.svg);
-  height: 59px;
-  width: 50%;
+  content: url(../../../build/img/cla/cardif-byn.svg);
+  height: 60px;
 }
 
 .img_confirmacion {
-  content: url(../../../build/img/itau/ic_confirmacion.svg);
+  content: url(../../../build/img/cla/ic_confirmacion.svg);
+}
+
+.img_alert {
+  content: url(../../../build/img/cla/ic_alerta.svg);
+}
+
+.img_close {
+  content: url(../../../build/img/cla/cerrar.svg);
+}
+
+.img_vida-familiar {
+  content: url(../../../build/img/cla/ic_vida-familiar.svg);
+}
+
+.img-vida {
+  content: url(../../../build/img/cla/vida.svg);
+  height: 60px !important;
+}
+
+.img-salario {
+  content: url(../../../build/img/cla/salario.svg);
+  height: 60px;
+}
+
+.img-credito-inmobiliario {
+  content: url(../../../build/img/cla/credito-inmobiliario.svg);
+  height: 60px;
 }
 
 body {
@@ -12466,12 +12508,12 @@ li {
 }
 
 section#navBar {
-  background-color: #f8f9fa;
+  background-color: #ffffff;
 }
 
 .header-bg {
   width: 100%;
-  background-color: #f8f9fa;
+  background-color: #ffffff;
 }
 
 .log-ejecutivo {
@@ -12486,7 +12528,7 @@ section#navBar {
 }
 
 .nav-itau {
-  background-color: #f8f9fa;
+  background-color: #ffffff;
 }
 
 .nav-itau div ul li.nav-item .nav-link {
@@ -12498,8 +12540,8 @@ section#navBar {
 }
 
 .nav-itau a.nav-link.active {
-  border-bottom: 4px solid #ec7000;
-  color: #ec7000;
+  border-bottom: 4px solid #0076a9;
+  color: #0076a9;
 }
 
 .dropdown-toggle::after {
@@ -12515,7 +12557,7 @@ section#navBar {
 }
 
 .nav-tab1 {
-  background-color: #f8f9fa;
+  background-color: #ffffff;
   padding-bottom: 0px;
   margin-bottom: 40px;
   width: 100%;
@@ -12530,8 +12572,8 @@ section#navBar {
 }
 
 .nav-tab1 a.nav-link.active {
-  border-bottom: 4px solid #ec7000;
-  color: #ec7000;
+  border-bottom: 4px solid #0076a9;
+  color: #0076a9;
   opacity: 1;
 }
 
@@ -12565,7 +12607,7 @@ section#navBar {
 .modal-title {
   margin-bottom: 0;
   line-height: var(--bs-modal-title-line-height);
-  color: #ec7000;
+  color: #0076a9;
 }
 
 button.cerrar-modal {
@@ -12595,11 +12637,11 @@ button.cerrar-modal-alerta {
 }
 
 .color-primary {
-  color: #ec7000;
+  color: #0076a9;
 }
 
 .color-info {
-  color: #0dcaf0;
+  color: #007ab7;
 }
 
 .color-verde {
@@ -12616,8 +12658,8 @@ button.cerrar-modal-alerta {
 }
 
 .alert-warning {
-  border-left: 4px solid #f1ae2f;
-  background-color: #fcebcb;
+  background-color: #ffecde;
+  border: 0;
 }
 
 .alert-danger {
@@ -12648,12 +12690,12 @@ a.card-box {
 }
 
 .card-plan.sombra-itau1.active {
-  border: 3px solid #ec7000;
+  border: 3px solid #0076a9;
 }
 
 .card-plan.active .numero-plan {
-  background-color: #ec7000;
-  color: #f8f9fa;
+  background-color: #0076a9;
+  color: #ffffff;
 }
 
 .numero-plan {
@@ -12684,7 +12726,7 @@ card.card-box {
 }
 
 .titulo-seguro {
-  color: #ec7000;
+  color: #0076a9;
   font-size: 20px;
 }
 
@@ -12731,12 +12773,13 @@ section#contenedor-mayor {
 .body-buttom {
   padding: 24px;
   height: auto;
-  background: #f8f9fa;
+  background: #ffffff;
   box-shadow: 0px 1px 2px rgba(91, 81, 73, 0.2);
   border-radius: 8px;
 }
 
 .body-buttom-card {
+  color: #0076a9;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12746,7 +12789,7 @@ section#contenedor-mayor {
   text-decoration: none;
   width: 189px;
   height: 153px;
-  background: #f8f9fa;
+  background: #ffffff;
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.16), 0px 2px 6px rgba(0, 0, 0, 0.18);
   border-radius: 8px;
   flex: none;
@@ -12756,8 +12799,7 @@ section#contenedor-mayor {
 
 .btn-primary {
   color: #fff;
-  border: 2px solid #ec7000;
-  border-color: #fff;
+  border: 2px solid #0076a9;
 }
 .btn-primary:hover {
   color: #fff;
@@ -12768,7 +12810,7 @@ section#contenedor-mayor {
 }
 
 .buscar-btn.active {
-  border-color: #6c757d;
+  border-color: #0076a9;
 }
 
 .label-float {
@@ -12779,7 +12821,7 @@ section#contenedor-mayor {
   font-weight: 700;
   font-size: 14px;
   padding: 0 4px;
-  background-color: #f8f9fa;
+  background-color: #ffffff;
 }
 
 .card-planes {
@@ -12799,7 +12841,7 @@ section#contenedor-mayor {
   order: 1;
   flex-grow: 0;
   background: #ffffff;
-  border: 1px solid #ec7000;
+  border: 1px solid #0076a9;
 }
 
 .divisor {
@@ -12821,8 +12863,8 @@ small.rango-uf {
 }
 
 .bubble {
-  background: #ec7000;
-  color: #f8f9fa;
+  background: #0076a9;
+  color: #ffffff;
   padding: 4px 12px;
   position: relative;
   border-radius: 4px;
@@ -12836,7 +12878,7 @@ small.rango-uf {
   position: absolute;
   width: 2px;
   height: 2px;
-  background: #ec7000;
+  background: #0076a9;
   top: -2px;
   left: 50%;
 }
@@ -12953,7 +12995,7 @@ body {
   border-style: solid;
   position: absolute;
   top: 0;
-  border-color: #ec7000;
+  border-color: #0076a9;
 }
 .progress .progress-left .progress-bar {
   left: 100%;
@@ -12983,7 +13025,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 80%;
-  color: #ec7000;
+  color: #0076a9;
   font-weight: 300;
 }
 .progress .progress-value div {
@@ -13311,7 +13353,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 }
 
 .bg-blue {
-  background-color: #003399;
+  background-color: #0076a9;
 }
 
 .btn-outline-secondary:hover > svg > path {
@@ -13321,11 +13363,11 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .btn.btn-nivel-tres {
   border-radius: 8px;
   background-color: #e7eaf7;
-  color: #003399;
+  color: #0076a9;
 }
 .btn.btn-nivel-tres:hover {
   background-color: #c2c9ea;
-  color: #003399;
+  color: #0076a9;
 }
 
 .table-head {
@@ -13451,7 +13493,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 }
 
 section#footer {
-  background-color: #ec7000;
+  background-color: #0076a9;
 }
 
 .text-footer-1 {

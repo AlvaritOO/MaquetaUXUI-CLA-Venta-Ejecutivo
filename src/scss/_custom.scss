@@ -23,17 +23,6 @@ $textos: #56504c;
 $placeholder: #89837f;
 $bordes-card: #efe9e5;
 
-//boton disabled
-.btn:disabled,
-.btn.disabled,
-fieldset:disabled .btn {
-  color: #56504c !important;
-  pointer-events: none;
-  background-color: #d9d3cf !important;
-  border-color: #d9d3cf !important;
-  opacity: var(--bs-btn-disabled-opacity);
-}
-
 //inputs
 $input-padding-y-lg: 11px;
 $input-font-size-lg: 1rem;

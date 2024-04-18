@@ -50,6 +50,16 @@ $btn-padding-y: 10px;
   background-color: $primary !important;
   border-color: $primary !important;
 }
+//boton disabled
+.btn:disabled,
+.btn.disabled,
+fieldset:disabled .btn {
+  color: #56504c !important;
+  pointer-events: none;
+  background-color: #d9d3cf !important;
+  border-color: #d9d3cf !important;
+  opacity: var(--bs-btn-disabled-opacity);
+}
 
 //acordeon
 $accordion-border-color: $bordes-card;
@@ -103,6 +113,32 @@ $modal-inner-padding: 32px;
 
 .img_confirmacion {
   content: url(../../../build/img/itau/ic_confirmacion.svg);
+}
+
+.img_alert {
+  content: url(../../../build/img/itau/ic_alerta.svg);
+}
+
+.img_close {
+  content: url(../../../build/img/itau/cerrar.svg);
+}
+
+.img_vida-familiar {
+  content: url(../../../build/img/cla/ic_vida-familiar.svg);
+}
+
+.img-vida {
+  content: url(../../../build/img/itau/vida.svg);
+}
+
+.img-salario {
+  content: url(../../../build/img/cla/salario.svg);
+  height: 60px;
+}
+
+.img-credito-inmobiliario {
+  content: url(../../../build/img/cla/credito-inmobiliario.svg);
+  height: 60px;
 }
 
 body {
@@ -399,6 +435,7 @@ section#contenedor-mayor {
 }
 
 .body-buttom-card {
+  color: $primary;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -415,6 +452,9 @@ section#contenedor-mayor {
   flex: none;
   order: 1;
   flex-grow: 0;
+  &:hover {
+    color: $naranja-hover;
+  }
 }
 
 .btn-primary {
