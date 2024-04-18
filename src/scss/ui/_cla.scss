@@ -24,6 +24,14 @@ $btn-line-height: 24px;
 $btn-padding-x: 24px;
 .btn-outline-secondary {
   color: #586264;
+  border-color: #0076a9;
+  border-width: 2px;
+  text-align: center;
+  &:hover {
+    color: #fff;
+    background-color: #0076a9;
+    border-color: #0076a9;
+  }
 }
 
 // Colores
