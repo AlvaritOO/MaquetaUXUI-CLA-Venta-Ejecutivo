@@ -12382,72 +12382,61 @@ textarea.form-control-lg {
   }
 }
 @font-face {
-  font-family: "RawsonRegular";
-  src: url("../../src/fonts/cla/RawsonRegular.otf");
+  font-family: "ItauRegular";
+  src: url("../../src/fonts/itau/ItauTextPro_W_Rg.woff2");
 }
-.btn-outline-secondary {
-  color: #586264;
-  border-color: #0076a9;
-  border-width: 2px;
-  text-align: center;
+@font-face {
+  font-family: "ItauDisplay";
+  src: url("../../src/fonts/itau/ItauDisplayPro_W_Bd.woff2");
 }
-.btn-outline-secondary:hover {
-  color: #fff;
-  background-color: #0076a9;
-  border-color: #0076a9;
-}
-
 .datepicker table tr td span.active,
 .datepicker table tr td span.active:hover,
 .datepicker table tr td span.active.disabled,
 .datepicker table tr td span.active.disabled:hover {
-  background-image: -webkit-linear-gradient(top, #0076a9 #0076a9) !important;
+  background-image: -webkit-linear-gradient(top, #0d6efd #0d6efd) !important;
 }
 
 .image-logo {
-  content: url(../../../build/img/cla/logo-cla.svg);
+  content: url(../../../build/img/itau/logo-itau.svg);
+  border-right: 1px solid #ccc;
+  margin-right: 19px;
 }
 
 .image-logo-centrado {
-  content: url(../../../build/img/cla/logo-bnp.svg);
+  content: url(../../../build/img/itau/logo-bnp.svg);
 }
 
 .img_log-ejecutivo {
-  content: url(../../../build/img/cla/ic_log-ejecutivo.svg);
+  content: url(../../../build/img/itau/ic_log-ejecutivo.svg);
 }
 
 .img_Chevron {
-  content: url(../../../build/img/cla/ic_Chevron.svg);
+  content: url(../../../build/img/itau/chevron.svg);
 }
 
 .img-logo-footer {
-  content: url(../../../build/img/cla/logo_cla_footer.svg);
-  height: 60px;
-  margin-right: 24px;
+  content: url(../../../build/img/itau/logo_itau_rgb.svg);
+  height: 70px;
 }
 
 .img-cardif-footer {
-  content: url(../../../build/img/cla/cardif-byn.svg);
-  height: 60px;
+  content: url(../../../build/img/itau/cardif-byn.svg);
+  height: 59px;
+  width: 50%;
 }
 
 .img_confirmacion {
-  content: url(../../../build/img/cla/ic_confirmacion.svg);
+  content: url(../../../build/img/itau/ic_confirmacion.svg);
 }
 
 body {
-  font-family: "RawsonRegular", sans-serif;
-  font-size: 18px;
-  overflow-x: hidden;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  font-family: "ItauRegular";
+  background-color: #faf7f5;
 }
 
 h1 {
-  font-family: "RawsonRegular"; /*Specify your font name here*/
-  font-size: 32px;
-  font-weight: 700;
+  font-family: "ItauDisplay", sans-serif; /*Specify your font name here*/
+  font-size: 28px;
 }
 
 h2 {
@@ -12459,16 +12448,16 @@ span,
 p,
 ul,
 li {
-  font-family: "RawsonRegular";
+  font-family: "ItauRegular";
 }
 
 section#navBar {
-  background-color: #ffffff;
+  background-color: #f8f9fa;
 }
 
 .header-bg {
   width: 100%;
-  background-color: #ffffff;
+  background-color: #f8f9fa;
 }
 
 .log-ejecutivo {
@@ -12483,7 +12472,7 @@ section#navBar {
 }
 
 .nav-itau {
-  background-color: #ffffff;
+  background-color: #f8f9fa;
 }
 
 .nav-itau div ul li.nav-item .nav-link {
@@ -12495,8 +12484,8 @@ section#navBar {
 }
 
 .nav-itau a.nav-link.active {
-  border-bottom: 4px solid #0076a9;
-  color: #0076a9;
+  border-bottom: 4px solid #0d6efd;
+  color: #0d6efd;
 }
 
 .dropdown-toggle::after {
@@ -12512,7 +12501,7 @@ section#navBar {
 }
 
 .nav-tab1 {
-  background-color: #ffffff;
+  background-color: #f8f9fa;
   padding-bottom: 0px;
   margin-bottom: 40px;
   width: 100%;
@@ -12527,8 +12516,8 @@ section#navBar {
 }
 
 .nav-tab1 a.nav-link.active {
-  border-bottom: 4px solid #0076a9;
-  color: #0076a9;
+  border-bottom: 4px solid #0d6efd;
+  color: #0d6efd;
   opacity: 1;
 }
 
@@ -12562,7 +12551,7 @@ section#navBar {
 .modal-title {
   margin-bottom: 0;
   line-height: var(--bs-modal-title-line-height);
-  color: #0076a9;
+  color: #0d6efd;
 }
 
 button.cerrar-modal {
@@ -12592,11 +12581,11 @@ button.cerrar-modal-alerta {
 }
 
 .color-primary {
-  color: #0076a9;
+  color: #ec7000;
 }
 
 .color-info {
-  color: #007ab7;
+  color: #0dcaf0;
 }
 
 .color-verde {
@@ -12645,12 +12634,12 @@ a.card-box {
 }
 
 .card-plan.sombra-itau1.active {
-  border: 3px solid #0076a9;
+  border: 3px solid #0d6efd;
 }
 
 .card-plan.active .numero-plan {
-  background-color: #0076a9;
-  color: #ffffff;
+  background-color: #0d6efd;
+  color: #f8f9fa;
 }
 
 .numero-plan {
@@ -12681,7 +12670,7 @@ card.card-box {
 }
 
 .titulo-seguro {
-  color: #0076a9;
+  color: #0d6efd;
   font-size: 20px;
 }
 
@@ -12728,7 +12717,7 @@ section#contenedor-mayor {
 .body-buttom {
   padding: 24px;
   height: auto;
-  background: #ffffff;
+  background: #f8f9fa;
   box-shadow: 0px 1px 2px rgba(91, 81, 73, 0.2);
   border-radius: 8px;
 }
@@ -12743,7 +12732,7 @@ section#contenedor-mayor {
   text-decoration: none;
   width: 189px;
   height: 153px;
-  background: #ffffff;
+  background: #f8f9fa;
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.16), 0px 2px 6px rgba(0, 0, 0, 0.18);
   border-radius: 8px;
   flex: none;
@@ -12753,7 +12742,8 @@ section#contenedor-mayor {
 
 .btn-primary {
   color: #fff;
-  border: 2px solid #0076a9;
+  border: 2px solid #0d6efd;
+  border-color: #fff;
 }
 .btn-primary:hover {
   color: #fff;
@@ -12764,7 +12754,7 @@ section#contenedor-mayor {
 }
 
 .buscar-btn.active {
-  border-color: #0076a9;
+  border-color: #6c757d;
 }
 
 .label-float {
@@ -12775,7 +12765,7 @@ section#contenedor-mayor {
   font-weight: 700;
   font-size: 14px;
   padding: 0 4px;
-  background-color: #ffffff;
+  background-color: #f8f9fa;
 }
 
 .card-planes {
@@ -12795,7 +12785,7 @@ section#contenedor-mayor {
   order: 1;
   flex-grow: 0;
   background: #ffffff;
-  border: 1px solid #0076a9;
+  border: 1px solid #0d6efd;
 }
 
 .divisor {
@@ -12817,8 +12807,8 @@ small.rango-uf {
 }
 
 .bubble {
-  background: #0076a9;
-  color: #ffffff;
+  background: #0d6efd;
+  color: #f8f9fa;
   padding: 4px 12px;
   position: relative;
   border-radius: 4px;
@@ -12832,7 +12822,7 @@ small.rango-uf {
   position: absolute;
   width: 2px;
   height: 2px;
-  background: #0076a9;
+  background: #0d6efd;
   top: -2px;
   left: 50%;
 }
@@ -12949,7 +12939,7 @@ body {
   border-style: solid;
   position: absolute;
   top: 0;
-  border-color: #0076a9;
+  border-color: #0d6efd;
 }
 .progress .progress-left .progress-bar {
   left: 100%;
@@ -12979,7 +12969,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 80%;
-  color: #0076a9;
+  color: #0d6efd;
   font-weight: 300;
 }
 .progress .progress-value div {
@@ -13307,7 +13297,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 }
 
 .bg-blue {
-  background-color: #0076a9;
+  background-color: #003399;
 }
 
 .btn-outline-secondary:hover > svg > path {
@@ -13317,11 +13307,11 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .btn.btn-nivel-tres {
   border-radius: 8px;
   background-color: #e7eaf7;
-  color: #0076a9;
+  color: #003399;
 }
 .btn.btn-nivel-tres:hover {
   background-color: #c2c9ea;
-  color: #0076a9;
+  color: #003399;
 }
 
 .table-head {
@@ -13447,7 +13437,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 }
 
 section#footer {
-  background-color: #0076a9;
+  background-color: #ec7000;
 }
 
 .text-footer-1 {
