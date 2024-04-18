@@ -1,5 +1,146 @@
 @use "../custom" as *;
 
+// Fonts
+@font-face {
+  font-family: "ItauRegular";
+  src: url("../../src/fonts/itau/ItauTextPro_W_Rg.woff2");
+}
+
+@font-face {
+  font-family: "ItauDisplay";
+  src: url("../../src/fonts/itau/ItauDisplayPro_W_Bd.woff2");
+}
+
+// Colores
+$naranja: #ec7000;
+$naranja-hover: #bc5900;
+$light-01: #fee082;
+$light-02: #fef3e0;
+$azul: #0076a9;
+$azul-hover: #00287a;
+$light-03: #c2c9ea;
+$light-04: #e7eaf7;
+$verde: #4cac8b;
+$neutral: #faf7f5;
+$titulo-cabecera: #231d19;
+$textos: #56504c;
+$placeholder: #89837f;
+$bordes-card: #efe9e5;
+$yellow: #f5c66d;
+$primary: #ec7000;
+.bg-primary {
+  background-color: $primary !important;
+}
+.text-primary {
+  color: $primary !important;
+}
+
+//tipografias
+$headings-font-family: "ItauDisplay";
+$headings-color: $titulo-cabecera;
+
+$itautextpro: "itauRegular";
+$itaudisplay: "ItauDisplay";
+
+//botones
+$btn-border-width: 2px;
+$btn-padding-y: 10px;
+.btn-primary {
+  color: #fff !important;
+  background-color: $primary !important;
+  border-color: $primary !important;
+}
+//boton disabled
+.btn:disabled,
+.btn.disabled,
+fieldset:disabled .btn {
+  color: #56504c !important;
+  pointer-events: none;
+  background-color: #d9d3cf !important;
+  border-color: #d9d3cf !important;
+  opacity: var(--bs-btn-disabled-opacity);
+}
+
+//acordeon
+$accordion-border-color: $bordes-card;
+$accordion-border-radius: 8px;
+$accordion-inner-border-radius: 8px;
+$accordion-icon-color: $primary;
+
+//modal
+$modal-content-color: $textos;
+$modal-content-border-radius: 12px;
+$modal-inner-padding: 32px;
+
+//Year active naranja
+.datepicker table tr td span.active,
+.datepicker table tr td span.active:hover,
+.datepicker table tr td span.active.disabled,
+.datepicker table tr td span.active.disabled:hover {
+  background-image: -webkit-linear-gradient(top, $primary $primary) !important;
+}
+
+// HTML
+
+.image-logo {
+  content: url(../../../build/img/itau/logo-itau.svg);
+  border-right: 1px solid #ccc;
+  margin-right: 19px;
+}
+
+.image-logo-centrado {
+  content: url(../../../build/img/itau/logo-bnp.svg);
+}
+
+.img_log-ejecutivo {
+  content: url(../../../build/img/itau/ic_log-ejecutivo.svg);
+}
+
+.img_Chevron {
+  content: url(../../../build/img/itau/chevron.svg);
+}
+
+.img-logo-footer {
+  content: url(../../../build/img/itau/logo_itau_rgb.svg);
+  height: 70px;
+}
+
+.img-cardif-footer {
+  content: url(../../../build/img/itau/cardif-byn.svg);
+  height: 59px;
+  width: 50%;
+}
+
+.img_confirmacion {
+  content: url(../../../build/img/itau/ic_confirmacion.svg);
+}
+
+.img_alert {
+  content: url(../../../build/img/itau/ic_alerta.svg);
+}
+
+.img_close {
+  content: url(../../../build/img/itau/cerrar.svg);
+}
+
+.img_vida-familiar {
+  content: url(../../../build/img/cla/ic_vida-familiar.svg);
+}
+
+.img-vida {
+  content: url(../../../build/img/itau/vida.svg);
+}
+
+.img-salario {
+  content: url(../../../build/img/cla/salario.svg);
+  height: 60px;
+}
+
+.img-credito-inmobiliario {
+  content: url(../../../build/img/cla/credito-inmobiliario.svg);
+  height: 60px;
+}
+
 body {
   font-family: "ItauRegular";
   //src: url("../../src/fonts/ItauTextPro_W_Rg.woff2");
@@ -21,6 +162,85 @@ p,
 ul,
 li {
   font-family: "ItauRegular";
+}
+
+section#navBar {
+  background-color: $light;
+}
+
+.header-bg {
+  width: 100%;
+  background-color: $light;
+}
+.log-ejecutivo {
+  border-radius: 22px;
+  border: 1px solid #efe9e5;
+  padding: 4px;
+  color: #231d19;
+}
+
+.log-ejecutivo img {
+  width: 30px;
+}
+
+.nav-itau {
+  background-color: $light;
+}
+
+.nav-itau div ul li.nav-item .nav-link {
+  padding: 18px 50px;
+}
+
+.nav-itau li a {
+  color: $textos;
+}
+
+.nav-itau a.nav-link.active {
+  border-bottom: 4px solid $primary;
+  color: $primary;
+}
+
+.dropdown-toggle::after {
+  display: none; //por defecto inline cuando se use
+  content: "";
+  width: 30px;
+  padding: 1px 7px;
+  background-position: center;
+  background-position-y: 4px;
+  border-top: 0.3em solid transparent;
+  border-right: 0.3em solid transparent;
+  background-image: url(../img/Chevron.svg);
+}
+
+.nav-tab1 {
+  background-color: $light;
+  padding-bottom: 0px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.nav-tab1 div ul li.nav-item .nav-link {
+  padding: 8px 40px;
+}
+
+.nav-tab1 li a {
+  color: $textos;
+}
+
+.nav-tab1 a.nav-link.active {
+  border-bottom: 4px solid $primary;
+  color: $primary;
+  opacity: 1;
+}
+
+.nav-tab1 a.nav-link {
+  opacity: 0.5;
+  color: #939598;
+  border-bottom: 4px solid #939598;
+}
+
+.active1 {
+  color: #231d19;
 }
 
 .form-floating > label {
@@ -73,7 +293,7 @@ button.cerrar-modal-alerta {
 }
 
 .color-primary {
-  color: #0076A9;
+  color: $naranja;
 }
 
 .color-info {
@@ -215,6 +435,7 @@ section#contenedor-mayor {
 }
 
 .body-buttom-card {
+  color: $primary;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -231,11 +452,15 @@ section#contenedor-mayor {
   flex: none;
   order: 1;
   flex-grow: 0;
+  &:hover {
+    color: $naranja-hover;
+  }
 }
 
 .btn-primary {
   color: $white;
   border: 2px solid $primary;
+  border-color: $white;
   &:hover {
     color: $white;
   }
@@ -752,4 +977,24 @@ Due to the split circle of progress-left and progress right, we must use the ani
 
 .ml-2 {
   margin-left: 2rem !important;
+}
+
+section#footer {
+  background-color: #ec7000;
+}
+
+.text-footer-1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.text-footer-2 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 19px;
+  color: #ffffff;
 }
