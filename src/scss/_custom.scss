@@ -22,13 +22,6 @@ $titulo-cabecera: #231d19;
 $textos: #56504c;
 $placeholder: #89837f;
 $bordes-card: #efe9e5;
-// Colores
-$primary: #0076a9;
-$secondary: #0076a9;
-$success: #def4ff;
-$info: #007ab7;
-$light: #ffffff;
-//$dark: $azul-hover;
 
 //boton disabled
 .btn:disabled,
@@ -56,19 +49,8 @@ $form-floating-height: 3rem;
 $form-select-border-radius: 8px;
 $form-select-border-radius-lg: 8px;
 
-//acordeon
-$accordion-border-color: $bordes-card;
-$accordion-border-radius: 8px;
-$accordion-inner-border-radius: 8px;
-$accordion-icon-color: $primary;
-
 //Tooltips
 $tooltip-bg: #000000;
-
-//modal
-$modal-content-color: $textos;
-$modal-content-border-radius: 12px;
-$modal-inner-padding: 32px;
 
 //alertas
 $alert-border-radius: 8px;
@@ -116,14 +98,6 @@ $position-values: (
 //Border
 $toast-border-radius: 8px;
 $border-radius: 8px;
-
-//Year active naranja
-.datepicker table tr td span.active,
-.datepicker table tr td span.active:hover,
-.datepicker table tr td span.active.disabled,
-.datepicker table tr td span.active.disabled:hover {
-  background-image: -webkit-linear-gradient(top, $primary $primary) !important;
-}
 
 // Importar Bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";

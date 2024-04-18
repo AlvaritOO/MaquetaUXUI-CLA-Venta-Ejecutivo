@@ -20,8 +20,37 @@ $secondary: #0076a9;
 //Botones
 $btn-border-radius: 8px;
 $btn-line-height: 24px;
-$btn-padding-y: 12px;
+
 $btn-padding-x: 24px;
+.btn-outline-secondary {
+  color: #586264;
+}
+
+// Colores
+$primary: #0076a9;
+$secondary: #0076a9;
+$success: #def4ff;
+$info: #007ab7;
+$light: #ffffff;
+
+//acordeon
+$accordion-border-color: $bordes-card;
+$accordion-border-radius: 8px;
+$accordion-inner-border-radius: 8px;
+$accordion-icon-color: $primary;
+
+//modal
+$modal-content-color: $textos;
+$modal-content-border-radius: 12px;
+$modal-inner-padding: 32px;
+
+//Year active naranja
+.datepicker table tr td span.active,
+.datepicker table tr td span.active:hover,
+.datepicker table tr td span.active.disabled,
+.datepicker table tr td span.active.disabled:hover {
+  background-image: -webkit-linear-gradient(top, $primary $primary) !important;
+}
 
 // HTML
 

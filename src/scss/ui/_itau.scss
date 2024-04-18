@@ -22,6 +22,42 @@ $itaudisplay: "ItauDisplay";
 $btn-border-width: 2px;
 $btn-padding-y: 10px;
 
+// Colores
+$naranja: #ec7000;
+$naranja-hover: #bc5900;
+$light-01: #fee082;
+$light-02: #fef3e0;
+$azul: #0076a9;
+$azul-hover: #00287a;
+$light-03: #c2c9ea;
+$light-04: #e7eaf7;
+$verde: #4cac8b;
+$neutral: #faf7f5;
+$titulo-cabecera: #231d19;
+$textos: #56504c;
+$placeholder: #89837f;
+$bordes-card: #efe9e5;
+$yellow: #f5c66d;
+
+//acordeon
+$accordion-border-color: $bordes-card;
+$accordion-border-radius: 8px;
+$accordion-inner-border-radius: 8px;
+$accordion-icon-color: $primary;
+
+//modal
+$modal-content-color: $textos;
+$modal-content-border-radius: 12px;
+$modal-inner-padding: 32px;
+
+//Year active naranja
+.datepicker table tr td span.active,
+.datepicker table tr td span.active:hover,
+.datepicker table tr td span.active.disabled,
+.datepicker table tr td span.active.disabled:hover {
+  background-image: -webkit-linear-gradient(top, $primary $primary) !important;
+}
+
 // HTML
 
 .image-logo {
@@ -209,7 +245,7 @@ button.cerrar-modal-alerta {
 }
 
 .color-primary {
-  color: #0076a9;
+  color: $naranja;
 }
 
 .color-info {
@@ -372,6 +408,7 @@ section#contenedor-mayor {
 .btn-primary {
   color: $white;
   border: 2px solid $primary;
+  border-color: $white;
   &:hover {
     color: $white;
   }
@@ -891,7 +928,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 }
 
 section#footer {
-  background-color: $primary;
+  background-color: #ec7000;
 }
 
 .text-footer-1 {
