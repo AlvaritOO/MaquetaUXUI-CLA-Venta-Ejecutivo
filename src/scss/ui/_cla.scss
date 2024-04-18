@@ -13,6 +13,16 @@ $headings-color: $titulo-cabecera;
 $itautextpro: "RawsonRegular";
 $itaudisplay: "RawsonRegular";
 
+// Colores
+$primary: #0076a9;
+$secondary: #0076a9;
+
+//Botones
+$btn-border-radius: 8px;
+$btn-line-height: 24px;
+$btn-padding-y: 12px;
+$btn-padding-x: 24px;
+
 // HTML
 
 .image-logo {
@@ -33,12 +43,17 @@ $itaudisplay: "RawsonRegular";
 
 .img-logo-footer {
   content: url(../../../build/img/cla/logo_cla_footer.svg);
-  height: 59px;
-  width: 50%;
+  height: 60px;
+  margin-right: 24px;
 }
 
 .img-cardif-footer {
   content: url(../../../build/img/cla/cardif-byn.svg);
+  height: 60px;
+}
+
+.img_confirmacion {
+  content: url(../../../build/img/cla/ic_confirmacion.svg);
 }
 
 body {
@@ -52,7 +67,8 @@ body {
 
 h1 {
   font-family: "RawsonRegular"; /*Specify your font name here*/
-  font-size: 28px;
+  font-size: 32px;
+  font-weight: 700;
 }
 
 h2 {
@@ -740,7 +756,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 }
 
 .bg-blue {
-  background-color: #003399;
+  background-color: #0076a9;
 }
 
 .btn-outline-secondary:hover > svg > path {
@@ -750,11 +766,11 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .btn.btn-nivel-tres {
   border-radius: 8px;
   background-color: #e7eaf7;
-  color: #003399;
+  color: #0076a9;
 
   &:hover {
     background-color: #c2c9ea;
-    color: #003399;
+    color: #0076a9;
   }
 }
 

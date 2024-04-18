@@ -18,6 +18,10 @@ $headings-color: $titulo-cabecera;
 $itautextpro: "itauRegular";
 $itaudisplay: "ItauDisplay";
 
+//botones
+$btn-border-width: 2px;
+$btn-padding-y: 10px;
+
 // HTML
 
 .image-logo {
@@ -39,7 +43,7 @@ $itaudisplay: "ItauDisplay";
 }
 
 .img-logo-footer {
-  content: url(../../../build/img/logo_itau_rgb.svg);
+  content: url(../../../build/img/itau/logo_itau_rgb.svg);
   height: 70px;
 }
 
@@ -47,6 +51,10 @@ $itaudisplay: "ItauDisplay";
   content: url(../../../build/img/itau/cardif-byn.svg);
   height: 59px;
   width: 50%;
+}
+
+.img_confirmacion {
+  content: url(../../../build/img/itau/ic_confirmacion.svg);
 }
 
 body {

@@ -3,7 +3,7 @@
 $naranja-hover: #bc5900;
 $light-01: #fee082;
 $light-02: #fef3e0;
-$azul: #003399;
+$azul: #0076a9;
 $azul-hover: #00287a;
 $light-03: #c2c9ea;
 $light-04: #e7eaf7;
@@ -24,15 +24,11 @@ $placeholder: #89837f;
 $bordes-card: #efe9e5;
 // Colores
 $primary: #0076a9;
-$secondary: #003399;
+$secondary: #0076a9;
 $success: #def4ff;
 $info: #007ab7;
 $light: #ffffff;
 //$dark: $azul-hover;
-
-//botones
-$btn-border-width: 2px;
-$btn-padding-y: 10px;
 
 //boton disabled
 .btn:disabled,
@@ -127,12 +123,6 @@ $border-radius: 8px;
 .datepicker table tr td span.active.disabled,
 .datepicker table tr td span.active.disabled:hover {
   background-image: -webkit-linear-gradient(top, $primary $primary) !important;
-}
-
-body {
-  font-family: "ItauRegular", sans-serif; /*Specify your font name here*/
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
 }
 
 // Importar Bootstrap
