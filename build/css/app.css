@@ -12409,6 +12409,7 @@ textarea.form-control-lg {
 .btn.disabled,
 fieldset:disabled .btn {
   color: #3e4545 !important;
+  padding: 8px;
   pointer-events: none;
   background-color: #a8b3b7 !important;
   border: 0;
