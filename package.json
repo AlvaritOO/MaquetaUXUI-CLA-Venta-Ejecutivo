@@ -1,7 +1,7 @@
 {
-  "name": "itau-ejecutivo-seguros",
+  "name": "cla-venta-ejecutivo",
   "version": "1.0.0",
-  "description": "Itau - Portal Ejecutivo",
+  "description": "CLA - Portal Ejecutivo",
   "main": "index.js",
   "scripts": {
     "dev": "gulp",
