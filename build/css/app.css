@@ -12429,60 +12429,60 @@ fieldset:disabled .btn {
 }
 
 .image-logo {
-  content: url(../../../build/img/cla/logo-cla.svg);
+  content: url(../img/cla/logo-cla.svg);
 }
 
 .image-logo-centrado {
-  content: url(../../../build/img/cla/logo-bnp.svg);
+  content: url(../img/cla/logo-bnp.svg);
 }
 
 .img_log-ejecutivo {
-  content: url(../../../build/img/cla/ic_log-ejecutivo.svg);
+  content: url(../img/cla/ic_log-ejecutivo.svg);
 }
 
 .img_Chevron {
-  content: url(../../../build/img/cla/ic_Chevron.svg);
+  content: url(../img/cla/ic_Chevron.svg);
 }
 
 .img-logo-footer {
-  content: url(../../../build/img/cla/logo_cla_footer.svg);
+  content: url(../img/cla/logo_cla_footer.svg);
   height: 60px;
   margin-right: 24px;
 }
 
 .img-cardif-footer {
-  content: url(../../../build/img/cla/cardif-byn.svg);
+  content: url(../img/cla/cardif-byn.svg);
   height: 60px;
 }
 
 .img_confirmacion {
-  content: url(../../../build/img/cla/ic_confirmacion.svg);
+  content: url(../img/cla/ic_confirmacion.svg);
 }
 
 .img_alert {
-  content: url(../../../build/img/cla/ic_alerta.svg);
+  content: url(../img/cla/ic_alerta.svg);
 }
 
 .img_close {
-  content: url(../../../build/img/cla/cerrar.svg);
+  content: url(../img/cla/cerrar.svg);
 }
 
 .img_vida-familiar {
-  content: url(../../../build/img/cla/ic_vida-familiar.svg);
+  content: url(../img/cla/ic_vida-familiar.svg);
 }
 
 .img-vida {
-  content: url(../../../build/img/cla/vida.svg);
+  content: url(../img/cla/vida.svg);
   height: 60px !important;
 }
 
 .img-salario {
-  content: url(../../../build/img/cla/salario.svg);
+  content: url(../img/cla/salario.svg);
   height: 60px;
 }
 
 .img-credito-inmobiliario {
-  content: url(../../../build/img/cla/credito-inmobiliario.svg);
+  content: url(../img/cla/credito-inmobiliario.svg);
   height: 60px;
 }
 
