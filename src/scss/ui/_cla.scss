@@ -69,6 +69,20 @@ fieldset:disabled .btn {
   opacity: 100;
 }
 
+.btn-primary-save {
+  color: #3e4545 !important;
+  background-color: #f9be00 !important;
+  border-color: #3e4545 !important;
+  border-width: 2px !important;
+}
+
+.btn-outline-secondary-cancel {
+  color: #3e4545 !important;
+  background-color: #ffffff !important;
+  border-color: #f9be00 !important;
+  border-width: 2px !important;
+}
+
 // Colores
 $primary: #0076a9;
 $secondary: #0076a9;
