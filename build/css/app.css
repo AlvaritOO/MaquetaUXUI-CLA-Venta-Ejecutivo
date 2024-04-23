@@ -12405,6 +12405,10 @@ textarea.form-control-lg {
   border-color: #0076a9;
 }
 
+.btn-success {
+  background-color: #def4ff !important;
+}
+
 .btn:disabled,
 .btn.disabled,
 fieldset:disabled .btn {
@@ -12432,7 +12436,7 @@ fieldset:disabled .btn {
 }
 
 .text-secondary {
-  color: #b37400 !important;
+  color: #0076a9 !important;
 }
 
 .datepicker table tr td span.active,

@@ -56,6 +56,10 @@ $btn-padding-x: 24px;
   }
 }
 
+.btn-success {
+  background-color: #def4ff !important;
+}
+
 //boton disabled
 .btn:disabled,
 .btn.disabled,
@@ -91,7 +95,7 @@ $info: #007ab7;
 $light: #ffffff;
 $text-secondary-cla: #b37400;
 .text-secondary {
-  color: $text-secondary-cla !important;
+  color: #0076a9 !important;
 }
 
 //acordeon
