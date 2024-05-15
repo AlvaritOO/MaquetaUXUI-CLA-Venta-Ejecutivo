@@ -42,7 +42,7 @@ $btn-padding-x: 24px;
 .btn-primary {
   color: #fff !important;
   background-color: $primary !important;
-  border-color: $primary !important;
+  border-color: #00648f !important;
 }
 .btn-outline-secondary {
   color: #0076a9;
@@ -54,6 +54,10 @@ $btn-padding-x: 24px;
     background-color: #0076a9;
     border-color: #0076a9;
   }
+}
+
+.btn-success {
+  background-color: #def4ff !important;
 }
 
 //boton disabled
@@ -69,6 +73,20 @@ fieldset:disabled .btn {
   opacity: 100;
 }
 
+.btn-primary-save {
+  color: #3e4545 !important;
+  background-color: #f9be00 !important;
+  border-color: #3e4545 !important;
+  border-width: 2px !important;
+}
+
+.btn-outline-secondary-cancel {
+  color: #3e4545 !important;
+  background-color: #ffffff !important;
+  border-color: #f9be00 !important;
+  border-width: 2px !important;
+}
+
 // Colores
 $primary: #0076a9;
 $secondary: #0076a9;
@@ -77,7 +95,7 @@ $info: #007ab7;
 $light: #ffffff;
 $text-secondary-cla: #b37400;
 .text-secondary {
-  color: $text-secondary-cla !important;
+  color: #0076a9 !important;
 }
 
 //acordeon

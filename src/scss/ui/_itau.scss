@@ -61,6 +61,20 @@ fieldset:disabled .btn {
   opacity: var(--bs-btn-disabled-opacity);
 }
 
+.btn-primary-save {
+  color: #fff !important;
+  background-color: $primary !important;
+  border-color: $naranja-hover !important;
+  border-width: 2px !important;
+}
+
+.btn-outline-secondary-cancel {
+  color: #3e4545 !important;
+  background-color: #ffffff !important;
+  border-color: #f9be00 !important;
+  border-width: 2px !important;
+}
+
 //acordeon
 $accordion-border-color: $bordes-card;
 $accordion-border-radius: 8px;
