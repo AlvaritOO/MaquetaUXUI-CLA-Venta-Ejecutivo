@@ -58,6 +58,9 @@ $btn-padding-x: 24px;
 
 .btn-success {
   background-color: #def4ff !important;
+  &.agregar-beneficiario {
+    border: 0;
+  }
 }
 
 //boton disabled
@@ -96,6 +99,9 @@ $light: #ffffff;
 $text-secondary-cla: #b37400;
 .text-secondary {
   color: $text-secondary-cla !important;
+  &.agregar-beneficiario {
+    color: $primary !important;
+  }
 }
 
 //acordeon
