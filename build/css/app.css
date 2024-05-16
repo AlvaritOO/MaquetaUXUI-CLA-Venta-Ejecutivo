@@ -13536,3 +13536,24 @@ section#footer {
   line-height: 19px;
   color: #ffffff;
 }
+
+input[type=date] {
+  position: relative;
+}
+input[type=date]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  top: 0px;
+  width: 45px;
+  height: 45px;
+}
+input[type=date]::before {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/cla/date.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
