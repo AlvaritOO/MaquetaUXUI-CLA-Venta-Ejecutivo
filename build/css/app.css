@@ -12408,6 +12408,9 @@ textarea.form-control-lg {
 .btn-success {
   background-color: #def4ff !important;
 }
+.btn-success.agregar-beneficiario {
+  border: 0;
+}
 
 .btn:disabled,
 .btn.disabled,
@@ -12437,6 +12440,9 @@ fieldset:disabled .btn {
 
 .text-secondary {
   color: #b37400 !important;
+}
+.text-secondary.agregar-beneficiario {
+  color: #0076a9 !important;
 }
 
 .datepicker table tr td span.active,
