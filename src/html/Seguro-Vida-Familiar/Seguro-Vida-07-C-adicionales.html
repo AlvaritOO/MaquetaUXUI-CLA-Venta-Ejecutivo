@@ -133,8 +133,155 @@
             <div class="accordion-item itau rounded">
               <h2 class="accordion-header" id="flush-headingOne1">
                 <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne1" aria-expanded="false" aria-controls="flush-collapseOne1">
+                  <img src="../../../build/img/cla/user_filled.svg" class="me-3"> Maximiliano Torres
+
+                  <div class="col mt-2 text-end">
+                    <a href="" class="boton-eliminar-beneficiario position-absolute top-50 end-4 translate-middle"
+                      data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <img src="../../../build/img/cla/eliminar.svg" alt="">
+                    </a>
+                    <a type="button" class="position-absolute top-50 end-5 translate-middle text-info p-2 fw-bold a-color">Editar</a>
+                  </div>
+
+                </button>
+              </h2>
+              <div id="flush-collapseOne1" class="accordion-collapse collapse" aria-labelledby="flush-headingOne1"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <h2 class="fw-bold">DATOS DE ASEGURADO ADICIONAL</h2>
+                    <form class="fondo-viajeros mt-4">
+                    <div class="row">
+                      <div class="form-floating mb-3 col-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="RUT" />
+                        <label for="floatingInput">RUT <span class="text-danger">*</span></label>
+                      </div>
+                      <div class="form-floating mb-3 col-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Leslie" />
+                        <label for="floatingInput">Nombres <span class="text-danger">*</span></label>
+                      </div>
+                      <div class="form-floating mb-3 col-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Martinez" />
+                        <label for="floatingInput">Primer apellido <span class="text-danger">*</span></label>
+                      </div>
+                      <div class="form-floating mb-3 col-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Diaz" />
+                        <label for="floatingInput">Segundo apellido <span class="text-danger">*</span></label>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="form-floating mb-3 col-3">
+                        <input type="date" class="form-control" id="floatingInput" placeholder="RUT" />
+                        <label for="floatingInput">Fecha de nacimiento <span class="text-danger">*</span></label>
+                      </div>
+                      <div class="mb-3 col-3">
+                        <select class="form-select form-select-lg" aria-label="form-select-lg example">
+                          <option selected>
+                            Nacionalidad <span class="text-danger">*</span>
+                          </option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                      </div>
+                      <div class="form-floating mb-3 col-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Martinez" />
+                        <label for="floatingInput">Profesión / Ocupación <span class="text-danger">*</span></label>
+                      </div>
+                      <div class="mb-3 col-3">
+                        <select class="form-select form-select-lg" aria-label="form-select-lg example">
+                          <option selected>
+                            Estado civil <span class="text-danger">*</span>
+                          </option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <h2 class="fw-bold mb-3">CONTACTO</h2>
+
+                    <div class="row">
+                        <div class="form-floating mb-3 col-6">
+                          <input type="text" class="form-control" id="floatingInput" placeholder="RUT" />
+                          <label for="floatingInput">Correo electrónico <span class="text-danger">*</span></label>
+                        </div>
+                        <div class="form-floating mb-3 col-6">
+                          <input type="text" class="form-control" id="floatingInput" placeholder="Leslie" />
+                          <label for="floatingInput">Confirma tu correo electrónico <span class="text-danger">*</span></label>
+                        </div>
+                    </div>
+
+                    <h2 class="fw-bold mb-3">RESIDENCIA</h2>
+
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Copiar datos de residencia del titular
+                        </label>
+                    </div>
+
+                    <div class="row">
+                        <div class="form-floating mb-3 col-4">
+                          <input type="text" class="form-control" id="floatingInput" placeholder="RUT" />
+                          <label for="floatingInput">País de residencia <span class="text-danger">*</span></label>
+                        </div>
+                        <div class="mb-3 col-4">
+                            <select class="form-select form-select-lg" aria-label="form-select-lg example">
+                            <option selected>
+                                Región <span class="text-danger">*</span>
+                            </option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            </select>
+                        </div>
+                        <div class="mb-3 col-4">
+                            <select class="form-select form-select-lg" aria-label="form-select-lg example">
+                            <option selected>
+                                Comuna <span class="text-danger">*</span>
+                            </option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            </select>
+                        </div>
+                        <div class="form-floating col-4">
+                          <input type="text" class="form-control" id="floatingInput" placeholder="RUT" />
+                          <label for="floatingInput">Calle <span class="text-danger">*</span></label>
+                        </div>
+                        <div class="form-floating col-4">
+                          <input type="text" class="form-control" id="floatingInput" placeholder="RUT" />
+                          <label for="floatingInput">Número de domiclio <span class="text-danger">*</span></label>
+                        </div>
+                        <div class="form-floating col-4">
+                          <input type="text" class="form-control" id="floatingInput" placeholder="RUT" />
+                          <label for="floatingInput">Departamento/Oficina <span class="text-danger">*</span></label>
+                        </div>
+                    </div>
+
+                    <div class="container text-end mt-4 g-2 mb-3 act-buttons">
+                      <button type="button" class="btn btn-outline-secondary-cancel fw-bold">
+                        Cancelar
+                      </button>
+                      <button type="button" class="btn btn-primary-save ms-2 fw-bold">Guardar adicional</button>
+                    </div>
+                  </form>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <div class="accordion accordion-flush mb-4 position-relative item-beneficiario" id="accordionFlushExample">
+            <div class="accordion-item itau rounded">
+              <h2 class="accordion-header" id="flush-headingOne1">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseOne1" aria-expanded="true" aria-controls="flush-collapseOne1">
-                  <img src="../../../build/img/cla/user_filled.svg" class="me-3 fw-bold"> {Nombre asegurado adicional 1}
+                  <img src="../../../build/img/cla/user_filled.svg" class="me-3 fw-bold"> {Nombre asegurado adicional 2}
                 </button>
               </h2>
               <div id="flush-collapseOne1" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne1"
@@ -267,8 +414,7 @@
               </div>
             </div>
           </div>
-        </div>
-        
+
         <div class="divisor"></div>
 
         
