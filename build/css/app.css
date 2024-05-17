@@ -12408,9 +12408,6 @@ textarea.form-control-lg {
 .btn-success {
   background-color: #def4ff !important;
 }
-.btn-success.agregar-beneficiario {
-  border: 0;
-}
 
 .btn:disabled,
 .btn.disabled,
@@ -12419,8 +12416,8 @@ fieldset:disabled .btn {
   padding: 8px;
   pointer-events: none;
   background-color: #a8b3b7 !important;
-  border: 0;
-  border-color: #d9d3cf !important;
+  border: 2px;
+  border-color: #a8b3b7 !important;
   opacity: 100;
 }
 
@@ -12439,9 +12436,6 @@ fieldset:disabled .btn {
 }
 
 .text-secondary {
-  color: #b37400 !important;
-}
-.text-secondary.agregar-beneficiario {
   color: #0076a9 !important;
 }
 
@@ -13560,4 +13554,8 @@ input[type=date]::before {
 
 .a-color {
   color: #0076a9 !important;
+}
+
+.agregar-beneficiario {
+  border: 0;
 }

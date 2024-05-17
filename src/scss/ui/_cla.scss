@@ -68,8 +68,8 @@ fieldset:disabled .btn {
   padding: 8px;
   pointer-events: none;
   background-color: #a8b3b7 !important;
-  border: 0;
-  border-color: #d9d3cf !important;
+  border: 2px;
+  border-color: #a8b3b7 !important;
   opacity: 100;
 }
 
@@ -1083,4 +1083,8 @@ input[type="date"] {
 
 .a-color {
   color: $primary !important;
+}
+
+.agregar-beneficiario {
+  border: 0;
 }
