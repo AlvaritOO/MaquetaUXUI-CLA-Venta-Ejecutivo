@@ -107,31 +107,27 @@
     <!--fin wizard-->
     <div class="container px-0">
       <div class="col body-buttom">
-        <h1 class="mt-2 mb-3 ps-3">Beneficiarios</h1>
-        <p class="ps-3">El cliente puede designar hasta 7 beneficiarios para la cobertura de Vida. A falta de
-          designación de beneficiarios, la indemnización se pagará a los herederos legales según la cuota hereditaria.
-          Puedes definir beneficiarios específicos o que tus beneficiarios sean tus herederos legales.</p>
+        <h1 class="mt-2 mb-2 ps-3">Beneficiarios</h1>
+        <h2 class="ps-3 mb-40">Selecciona la opción deseada:</h2>
         <div class="row ms-1">
-          <p>Selecciona la opción deseada:</p>
-          <div class="col-3 pb-3">
+          <div class="col-6 pb-3">
 
-            <p>
-              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked />
-              Beneficiario designado
-              <img src="../../../src/img/informacion.svg" alt="" class="ms-2" type="button" data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="El beneficiario es la(s) persona (s) que designes al momento de contratar tu seguro, las cuales recibirán la indemnización de la cobertura de muerte accidental en caso de fallecimiento del asegurado. Durante la vigencia de la póliza se pueden modificar a los beneficiarios designados, siempre que se informe por escrito mediante el formulario respectivo."></img>
-            </p>
-          </div>
-
-          <div class="col-3 pb-3">
             <p>
               <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
               Herederos legales
-              <img src="../../../src/img/informacion.svg" alt="" class="ms-2" type="button" data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                title="Son herederos legales aquellas personas (familiares) que en caso en que fallezcas recibirán todo o parte de tu herencia en proporción a las cuotas que señale la ley."></img>
+              <p>
+                *Son aquellos familiares que en caso en que fallezcas recibirán todo o parte de tu herencia de acuerdo a lo que señale la ley. <b>Ejemplo: Padres, hermanos, hijos, etc.</b>
+              </p>
             </p>
+          </div>
+
+          <div class="col-6 pb-3">
+            <p>
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
+              Otros beneficiarios
+              <p>
+                Son las personas que designes cuando contratas tu seguro y son las que recibiran el pago de tu cobertura en caso de que fallezcas. Mientras tu seguro esté activo, puedes modificar tus beneficiarios siempre que se informe por escrito. Ejemplo: Pareja, amigos, padres, hermanos, hijos, primos etc.              </p>
+              </p>
           </div>
         </div>
 
@@ -141,7 +137,7 @@
           <div class="accordion accordion-flush mb-4 position-relative item-beneficiario" id="accordionFlushExample">
             <div class="accordion-item itau rounded">
               <h2 class="accordion-header" id="flush-headingOne1">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseOne1" aria-expanded="false" aria-controls="flush-collapseOne1">
                   <img src="../../../build/img/cla/user_filled.svg" class="me-3"> Carlos Ramirez
                   <div class="position-absolute top-50 end-6 translate-middle">Porcentaje asignado: <b>25%</b>
@@ -152,7 +148,7 @@
                       data-bs-toggle="modal" data-bs-target="#exampleModal">
                       <img src="../../../build/img/cla/eliminar.svg" alt="">
                     </a>
-                    <a type="button" class="position-absolute top-50 end-5 translate-middle text-info p-2 fw-bold">Editar</a>
+                    <a type="button" class="position-absolute top-50 end-5 translate-middle text-info p-2 fw-bold a-color">Editar</a>
                   </div>
 
                 </button>
@@ -209,10 +205,10 @@
                     </div>
 
                     <div class="container-fluid text-end mt-4 mb-5 g-2 act-buttons">
-                      <button type="button" class="btn btn-outline-secondary">
+                      <button type="button" class="btn btn-outline-secondary-cancel fw-bold">
                         Cancelar
                       </button>
-                      <button type="button" class="btn btn-primary ms-2">Guardar nuevo beneficiario</button>
+                      <button type="button" class="btn btn-primary-save ms-2 fw-bold">Guardar beneficiario</button>
                     </div>
                   </form>
 
@@ -220,25 +216,16 @@
               </div>
             </div>
           </div>
+
           <div class="accordion accordion-flush mb-4 position-relative item-beneficiario" id="accordionFlushExample">
             <div class="accordion-item itau rounded">
-              <h2 class="accordion-header" id="flush-headingOne2">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#flush-collapseOne2" aria-expanded="false" aria-controls="flush-collapseOne2">
-                  <img src="../../../build/img/cla/user_filled.svg" class="me-3"> Miguel  Perez
-                  <div class="position-absolute top-50 end-6 translate-middle">Porcentaje asignado: <b>75%</b>
-                  </div>
-
-                  <div class="col mt-2 text-end">
-                    <a href="" class="boton-eliminar-beneficiario position-absolute top-50 end-4 translate-middle"
-                      data-bs-toggle="modal" data-bs-target="#exampleModal">
-                      <img src="../../../build/img/cla/eliminar.svg" alt="">
-                    </a>
-                    <a type="button" class="position-absolute top-50 end-5 translate-middle text-info p-2 fw-bold">Editar</a>
-                  </div>
+              <h2 class="accordion-header" id="flush-headingOne1">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne2" aria-expanded="true" aria-controls="flush-collapseOne2">
+                  <img src="../../../build/img/cla/user_filled.svg" class="me-3"> Beneficiario 2
                 </button>
               </h2>
-              <div id="flush-collapseOne2" class="accordion-collapse collapse" aria-labelledby="flush-headingOne2"
+              <div id="flush-collapseOne2" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne1"
                 data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
 
@@ -290,10 +277,10 @@
                     </div>
 
                     <div class="container-fluid text-end mt-4 mb-5 g-2 act-buttons">
-                      <button type="button" class="btn btn-outline-secondary">
+                      <button type="button" class="btn btn-outline-secondary-cancel fw-bold">
                         Cancelar
                       </button>
-                      <button type="button" class="btn btn-primary ms-2">Guardar nuevo beneficiario</button>
+                      <button type="button" class="btn btn-primary-save ms-2 fw-bold">Guardar beneficiario</button>
                     </div>
                   </form>
 
@@ -304,17 +291,9 @@
         </div>
 
         <div class="divisor"></div>
-        
-        <div class="row mt-4">
-          <div class="col-12 text-start">
-            <button type="button" class="btn btn-success text-secondary fw-bold">
-              <img src="../../../build/img/cla/mas.svg" alt="">Agregar beneficiario
-            </button>
-          </div>
-        </div>
 
         <div class="mx-4 text-end">
-          <b class="text-danger">Ya tienes asignado un 100%, para agregar un nuevo ...
+          <b class="text-danger">Te faltan asignar 75%, agrega un nuevo beneficiario o asignalos a los ya existentes.
           </b>
         </div>
 
@@ -323,7 +302,7 @@
 
       <div class="container-fluid text-end mt-4 mb-5 g-2 act-buttons">
         <button type="button" class="btn btn-outline-secondary fw-bold">Volver</button>
-        <button type="button" class="btn btn-primary ms-2">Continuar</button>
+        <button type="button" class="btn btn-primary ms-2 disabled fw-bold">Continuar</button>
       </div>
     </div>
     </div>
@@ -338,7 +317,7 @@
 
         <div class="modal-body text-start pb-0">
           <div class="d-flex justify-content-between">
-            <h2 class="text-primary title mt-0">Quitar Beneficiario</h2>
+            <h2 class="text-primary title mt-0">¿Estas seguro?</h2>
 
             <a type="button" class="btn-close-orange my-auto" data-bs-dismiss="modal" aria-label="Close">
               <img src="../../../build/img/cla/Cerrar-Naranja.svg" alt="">
@@ -346,14 +325,13 @@
           </div>
           <div class="divisor"></div>
           <div class="d-flex flex-column justify-content-start row">
-            <p class="description">¿Esta seguro que desea quitar este beneficiario? <br> Esta acción no se puede
-              deshacer</p>
+            <p class="description">Eliminarás a un beneficiario</p>
           </div>
         </div>
         <div class="modal-footer bg-neutral border-0 py-2">
           <div class="d-flex justify-content-end gap-4">
             <a type="button" class="text-info p-2 fw-bold a-color" data-bs-dismiss="modal">Cancelar</a>
-            <a href=""><button type="button" class="btn btn-primary px-4">Confirmar Eliminación</button></a>
+            <a href=""><button type="button" class="btn btn-primary px-4">Confirmar</button></a>
           </div>
         </div>
       </div>
@@ -389,5 +367,14 @@
   integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <script>
+    var tooltipTriggerList = [].slice.call(
+      document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    );
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl);
+    });
+  </script>
 
 </html>
