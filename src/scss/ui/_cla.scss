@@ -58,6 +58,9 @@ $btn-padding-x: 24px;
 
 .btn-success {
   background-color: #def4ff !important;
+  &.agregar-beneficiario {
+    border: 0;
+  }
 }
 
 //boton disabled
@@ -95,7 +98,10 @@ $info: #007ab7;
 $light: #ffffff;
 $text-secondary-cla: #b37400;
 .text-secondary {
-  color: #0076a9 !important;
+  color: $text-secondary-cla !important;
+  &.agregar-beneficiario {
+    color: $primary !important;
+  }
 }
 
 //acordeon
@@ -377,7 +383,7 @@ button.cerrar-modal-alerta {
 }
 
 .alert-warning {
-  border-left: 4px solid #B34A00;
+  border-left: 4px solid #b34a00;
   background-color: #ffecde;
 }
 
