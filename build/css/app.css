@@ -13565,3 +13565,9 @@ input[type=date]::before {
 .agregar-beneficiario {
   border: 0;
 }
+
+.text-rut {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
