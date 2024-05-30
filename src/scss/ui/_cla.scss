@@ -114,6 +114,9 @@ $accordion-icon-color: $primary;
 $modal-content-color: $textos;
 $modal-content-border-radius: 12px;
 $modal-inner-padding: 32px;
+.modal-body {
+  padding: 32px;
+}
 
 //Year active naranja
 .datepicker table tr td span.active,

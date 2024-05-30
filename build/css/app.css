@@ -12445,6 +12445,10 @@ fieldset:disabled .btn {
   color: #0076a9 !important;
 }
 
+.modal-body {
+  padding: 32px;
+}
+
 .datepicker table tr td span.active,
 .datepicker table tr td span.active:hover,
 .datepicker table tr td span.active.disabled,
