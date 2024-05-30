@@ -110,6 +110,24 @@
         <h1 class="mt-2 mb-3 ps-3">Adicionales grupo familiar</h1>
         <p class="ps-3">Puedes designar hasta 10 adicionales, siempre que sean cargas legales, para que también estén cubiertos ante enfermedades graves y reembolso de gastos médicos, sin costo adicional.</p>
         <div class="row ms-1">
+          <strong class="mb-3">Selecciona tu empresa actual</strong>
+          <div class="col-3 pb-0">
+
+            <div class="form-check mb-1">
+              <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault3" checked/>
+              <label class="form-check-label" for="flexRadioDefault3">
+                Empresa 1
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault4" />
+              <label class="form-check-label" for="flexRadioDefault4">
+                Empresa 2
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="row ms-1 mt-3">
           <strong class="mb-3">¿Desea asignar asegurados adicionales?</strong>
           <div class="col-3 pb-0">
             <div class="form-check mb-1">
@@ -146,19 +164,15 @@
                     <h2 class="fw-bold">DATOS DE ASEGURADO ADICIONAL</h2>
                     <form class="fondo-viajeros mt-4">
                     <div class="row">
-                      <div class="form-floating mb-3 col-3">
-                        <input type="text" class="form-control" id="floatingInput" placeholder="RUT" />
-                        <label for="floatingInput">RUT <span class="text-danger">*</span></label>
-                      </div>
-                      <div class="form-floating mb-3 col-3">
+                      <div class="form-floating mb-4 col-4">
                         <input type="text" class="form-control" id="floatingInput" placeholder="Leslie" />
                         <label for="floatingInput">Nombres <span class="text-danger">*</span></label>
                       </div>
-                      <div class="form-floating mb-3 col-3">
+                      <div class="form-floating mb-4 col-4">
                         <input type="text" class="form-control" id="floatingInput" placeholder="Martinez" />
                         <label for="floatingInput">Primer apellido <span class="text-danger">*</span></label>
                       </div>
-                      <div class="form-floating mb-3 col-3">
+                      <div class="form-floating mb-4 col-4">
                         <input type="text" class="form-control" id="floatingInput" placeholder="Diaz" />
                         <label for="floatingInput">Segundo apellido <span class="text-danger">*</span></label>
                       </div>
@@ -271,30 +285,6 @@
             </div>
           </div>
         </div>
-        
-        <div class="divisor"></div>
-
-        
-        <div class="row ms-1">
-          <strong class="mb-3">Selecciona tu empresa actual</strong>
-          <div class="col-3 pb-0">
-
-            <div class="form-check mb-1">
-              <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault3" checked/>
-              <label class="form-check-label" for="flexRadioDefault3">
-                Empresa 1
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault4" />
-              <label class="form-check-label" for="flexRadioDefault4">
-                Empresa 2
-              </label>
-            </div>
-          </div>
-
-
-        </div>
 
         </form>
       </div>
@@ -339,25 +329,31 @@
   <!--Fin Modal-->
 
   <!--Footer-->
-  <section id="footer" class="footer mt-auto py-3">
-    <div class="container">
-      <footer class="d-flex flex-wrap align-items-center py-4">
-        <p class="col-md-4 col-12 col-sm-2 col-lg-4 mb-0 text-muted">
-          <a href="#"><img class="col logo-footer me-4" alt="CLA Logo"
-              src="../../../build/img/cla/logo_cla_footer.svg" /></a>
-          <a href="#"><img class="col-5 logo-footer" alt="BNP Paribas Cardif"
-              src="../../../build/img/cla/cardif-byn.svg" /></a>
-        </p>
-        <p class="text-footer-1 col-6 justify-content-end">
-          Infórmese sobre la garantía estatal de los depósitos en su banco o
-          en www.cmfchile.cl <br /><span class="text-footer-2 col-8 justify-content-end">© 2022 Banco Itaú. Todos los
-            derechos reservados. Av. Presidente
-            Riesco 5537, Las Condes. Santiago de Chile.
-          </span>
-        </p>
-      </footer>
-    </div>
-  </section>
+    <section id="footer" class="footer mt-auto">
+      <div class="container">
+        <footer class="d-flex flex-wrap align-items-center py-3">
+          <div class="img-footer col-4 text-muted">
+            <a href="#"><img class="img-logo-footer logo-footer me-2" /></a>
+            <a href="#"
+              ><img
+                class="col-lg-5 col-5 col-md-4 img-cardif-footer logo-footer"
+            /></a>
+          </div>
+          <div
+            class="text-footer-1 col-8 justify-content-end text-sm-center text-center text-lg-start mt-4 mt-lg-0"
+          >
+            <p class="mb-0 mt-3">
+              Infórmese sobre la garantía estatal de los depósitos en su banco o
+              en www.cmfchile.cl
+            </p>
+            <p>
+              Todos los derechos reservados. Av. Presidente Riesco 5537, Las
+              Condes. Santiago de Chile.
+            </p>
+          </div>
+        </footer>
+      </div>
+    </section>
   <!--Fin Footer-->
 
 </body>
