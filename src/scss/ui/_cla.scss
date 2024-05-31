@@ -114,6 +114,9 @@ $accordion-icon-color: $primary;
 $modal-content-color: $textos;
 $modal-content-border-radius: 12px;
 $modal-inner-padding: 32px;
+.modal-body {
+  padding: 32px;
+}
 
 //Year active naranja
 .datepicker table tr td span.active,
@@ -144,12 +147,11 @@ $modal-inner-padding: 32px;
 .img-logo-footer {
   content: url(../img/cla/logo_cla_footer.svg);
   height: 50px;
-  margin-right: 24px;
 }
 
 .img-cardif-footer {
   content: url(../img/cla/cardif-byn.svg);
-  height: 55px;
+  height: 75px;
 }
 
 .img_confirmacion {
@@ -488,6 +490,7 @@ a:hover {
 .accordion-flush .accordion-item .accordion-button,
 .accordion-flush .accordion-item .accordion-button.collapsed {
   border-radius: 8px !important;
+  color: #000;
 }
 
 section#contenedor-mayor {
@@ -1093,4 +1096,10 @@ input[type="date"] {
 
 .agregar-beneficiario {
   border: 0;
+}
+
+.text-rut {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }

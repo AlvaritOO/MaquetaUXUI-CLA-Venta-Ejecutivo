@@ -12445,6 +12445,10 @@ fieldset:disabled .btn {
   color: #0076a9 !important;
 }
 
+.modal-body {
+  padding: 32px;
+}
+
 .datepicker table tr td span.active,
 .datepicker table tr td span.active:hover,
 .datepicker table tr td span.active.disabled,
@@ -12471,12 +12475,11 @@ fieldset:disabled .btn {
 .img-logo-footer {
   content: url(../img/cla/logo_cla_footer.svg);
   height: 50px;
-  margin-right: 24px;
 }
 
 .img-cardif-footer {
   content: url(../img/cla/cardif-byn.svg);
-  height: 55px;
+  height: 75px;
 }
 
 .img_confirmacion {
@@ -12788,6 +12791,7 @@ a:hover {
 .accordion-flush .accordion-item .accordion-button,
 .accordion-flush .accordion-item .accordion-button.collapsed {
   border-radius: 8px !important;
+  color: #000;
 }
 
 section#contenedor-mayor {
@@ -13564,4 +13568,10 @@ input[type=date]::before {
 
 .agregar-beneficiario {
   border: 0;
+}
+
+.text-rut {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
